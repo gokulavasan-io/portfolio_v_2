@@ -6,11 +6,11 @@ import {  SidebarClose, Star,} from 'lucide-react';
 function Skills() {
 
     const techSkills = [
-        { name: "React", rating: 3, icon: SiReact },
-        { name: "JavaScript", rating: 4, icon: SiJavascript },
-        { name: "Python", rating: 3, icon: SiPython },
-        { name: "Django", rating: 4, icon: SiDjango },
-        { name: "My SQL", rating: 5, icon: SiMysql },
+      { name: "JavaScript", rating: 5, icon: SiJavascript },
+      { name: "Python", rating: 5, icon: SiPython },
+      { name: "My SQL", rating: 5, icon: SiMysql },
+      { name: "Django", rating: 4, icon: SiDjango },
+      { name: "React", rating: 3, icon: SiReact },
         { name: "HTML/CSS", rating: 5, icon: SiHtml5 },
       ];
     const softSkills = [
@@ -55,7 +55,7 @@ function Skills() {
       </section>
       <section id="skills" className="py-20">
         <div className="container px-6 mx-auto">
-          <h2 className="section-title">Soft Skills</h2>
+          <h2 className="section-title">Communication & Soft skills</h2>
           <div className="grid max-w-4xl grid-cols-1 gap-8 mx-auto md:grid-cols-2 lg:grid-cols-3">
             {softSkills.map((skill) => (
               <div key={skill.name} className="p-6 bg-white rounded-lg shadow-lg dark:bg-gray-800">

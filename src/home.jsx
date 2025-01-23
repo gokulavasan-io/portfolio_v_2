@@ -28,7 +28,7 @@ function Home() {
         
   
           <p className="mb-8 text-xl text-gray-600 dark:text-gray-300">
-            Full Stack Developer
+            Web Developer
           </p>
           <div className="flex space-x-4">
             <a href="https://github.com/gokulavasan-io" className="social-link" target='blank'><Github /></a>

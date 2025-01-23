@@ -1,6 +1,6 @@
 import Navbar from './navbar';
 import Home from './home';
-import Skills from './techSkills';
+import Skills from './skills';
 import Project from './projects';
 import Footer from './footer';
 import About from './about';

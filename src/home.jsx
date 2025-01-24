@@ -1,6 +1,7 @@
 import React from 'react'
 import {Github, Linkedin, Mail } from 'lucide-react';
 import SplitText from './utils/splitText';
+import {img} from './assets/image/img_gv'
 
 
 function Home() {
@@ -8,7 +9,7 @@ function Home() {
     <section id="home" className="px-6 pt-32 pb-20">
         <div className="container flex flex-col items-center mx-auto text-center">
           <img
-            src="https://w1.pngwing.com/pngs/743/500/png-transparent-circle-silhouette-logo-user-user-profile-green-facial-expression-nose-cartoon.png"
+            src={img}
             alt="Profile"
             className="object-cover w-40 h-40 mb-8 rounded-full"
           />

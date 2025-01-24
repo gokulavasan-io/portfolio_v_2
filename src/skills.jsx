@@ -1,7 +1,6 @@
 import React from 'react'
-import { Si30Secondsofcode, Si9Gag, SiAcademia, SiAdblockplus, SiDjango, SiDoxygen, SiHtml5, SiJavascript,SiLibreofficemath,SiMacos,SiMysql,SiPython,SiReact, SiWolframmathematica, } from "react-icons/si";
-import {  SidebarClose, Star,} from 'lucide-react';
-
+import { Si1Password, Si30Secondsofcode, Si9Gag, SiAcademia, SiAdblockplus, SiAirbus, SiCodeium, SiDjango, SiDoxygen, SiHtml5, SiJavascript,SiLibreofficemath,SiMacos,SiMysql,SiPython,SiReact, SiWolframmathematica, } from "react-icons/si";
+import {  Code2Icon, SidebarClose, Star,} from 'lucide-react';
 
 function Skills() {
 
@@ -11,7 +10,8 @@ function Skills() {
       { name: "My SQL", rating: 5, icon: SiMysql },
       { name: "Django", rating: 4, icon: SiDjango },
       { name: "React", rating: 3, icon: SiReact },
-        { name: "HTML/CSS", rating: 5, icon: SiHtml5 },
+      { name: "HTML & CSS", rating: 5, icon: SiHtml5 },
+      { name: "Problem Solving", rating: 5, icon: Code2Icon },
       ];
     const softSkills = [
         { name: "Writing", rating: 4, },
@@ -28,7 +28,7 @@ function Skills() {
     <>
       <section id="skills" className="py-20">
         <div className="container px-6 mx-auto">
-          <h2 className="section-title">Tech Skills</h2>
+          <h2 className="section-title">Technical Skills</h2>
           <div className="grid max-w-4xl grid-cols-1 gap-8 mx-auto md:grid-cols-2 lg:grid-cols-3">
             {techSkills.map((skill) => (
               <div key={skill.name} className="p-6 bg-white rounded-lg shadow-lg dark:bg-gray-800">
@@ -55,7 +55,7 @@ function Skills() {
       </section>
       <section id="skills" className="py-20">
         <div className="container px-6 mx-auto">
-          <h2 className="section-title">Communication & Soft skills</h2>
+          <h2 className="section-title">Communication & Life skills</h2>
           <div className="grid max-w-4xl grid-cols-1 gap-8 mx-auto md:grid-cols-2 lg:grid-cols-3">
             {softSkills.map((skill) => (
               <div key={skill.name} className="p-6 bg-white rounded-lg shadow-lg dark:bg-gray-800">

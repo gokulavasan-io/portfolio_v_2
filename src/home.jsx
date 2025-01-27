@@ -3,7 +3,6 @@ import {Github, Linkedin, Mail } from 'lucide-react';
 import SplitText from './utils/splitText';
 import {img} from './assets/image/img_gv'
 
-
 function Home() {
   return (
     <section id="home" className="px-6 pt-32 pb-20">

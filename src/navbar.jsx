@@ -19,7 +19,7 @@ const Navbar = () => {
       <div className="container px-6 py-4 mx-auto">
         <div className="flex items-center justify-between">
           {/* Logo */}
-          <div className="text-2xl font-bold text-blue-600 dark:text-blue-400">Gokulavasan</div>
+          <div className="text-2xl font-bold text-blue-600 dark:text-blue-400" id="gvHero">Gokulavasan</div>
 
           {/* Hamburger Icon */}
           <button

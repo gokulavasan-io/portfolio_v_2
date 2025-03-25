@@ -1,16 +1,17 @@
 import React from 'react'
-import { Si1Password, Si30Secondsofcode, Si9Gag, SiAcademia, SiAdblockplus, SiAirbus, SiCodeium, SiDjango, SiDoxygen, SiHtml5, SiJavascript,SiLibreofficemath,SiMacos,SiMysql,SiPython,SiReact, SiWolframmathematica, } from "react-icons/si";
-import {  Code2Icon, SidebarClose, Star,} from 'lucide-react';
+import { SiDjango, SiHtml5, SiJavascript,SiMysql,SiPython,SiReact, } from "react-icons/si";
+import {  Code2Icon, RegexIcon, Star,} from 'lucide-react';
 
 function Skills() {
 
     const techSkills = [
-      { name: "JavaScript", rating: 5, icon: SiJavascript },
       { name: "Python", rating: 5, icon: SiPython },
-      { name: "My SQL", rating: 5, icon: SiMysql },
       { name: "Django", rating: 4, icon: SiDjango },
+      { name: "JavaScript", rating: 5, icon: SiJavascript },
       { name: "React", rating: 3, icon: SiReact },
+      { name: "My SQL", rating: 5, icon: SiMysql },
       { name: "HTML & CSS", rating: 5, icon: SiHtml5 },
+      { name: "REGEX", rating: 5, icon: RegexIcon },
       { name: "Problem Solving", rating: 5, icon: Code2Icon },
       ];
     const softSkills = [

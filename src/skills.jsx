@@ -11,7 +11,7 @@ function Skills() {
       { name: "React", rating: 3, icon: SiReact },
       { name: "My SQL", rating: 5, icon: SiMysql },
       { name: "HTML & CSS", rating: 5, icon: SiHtml5 },
-      { name: "REGEX", rating: 5, icon: RegexIcon },
+      // { name: "REGEX", rating: 5, icon: RegexIcon },
       { name: "Problem Solving", rating: 5, icon: Code2Icon },
       ];
     const softSkills = [
